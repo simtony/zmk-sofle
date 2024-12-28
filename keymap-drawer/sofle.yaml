@@ -54,17 +54,17 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
-  - {t: 'Gui+ [', s: 'Gui+ {'}
+  - {t: 'Gui+[', s: 'Gui+{'}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
-  - Ctl+ $$mdi:keyboard-space$$
+  - Ctl+$$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '`', s: '~'}
   - $$mdi:keyboard-space$$
-  - layer1
+  - {t: '$$mdi:keyboard-space$$', h: layer1}
   - '2'
-  - {t: 'Gui+ ]', s: 'Gui+ }'}
+  - {t: 'Gui+]', s: 'Gui+}'}
   layer1:
   - F12
   - F1
@@ -160,8 +160,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
   - OUT BLE
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:bluetooth-off$$
+  - BT CLR ALL
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
