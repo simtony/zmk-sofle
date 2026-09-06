@@ -63,8 +63,8 @@ layers:
   - Ctl+$$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - layer1
+  - $$mdi:apple-keyboard-option$$
   - layer2
-  - {t: '$$mdi:transfer$$', type: trans}
   layer1:
   - F11
   - F1
@@ -193,8 +193,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
 combos:
 - p: [29, 30]
   k: (
