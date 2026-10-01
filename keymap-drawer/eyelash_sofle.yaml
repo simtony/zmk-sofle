@@ -57,7 +57,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - LEFT WIN
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+$$mdi:keyboard-space$$
@@ -232,9 +232,9 @@ combos:
 - p: [48, 49]
   k: '"'
   l: [LAYER0]
-- p: [28, 29, 30]
-  k: {t: '`', s: '~'}
+- p: [28, 30, 29]
+  k: ':'
   l: [LAYER0]
-- p: [34, 35, 36]
-  k: '~'
+- p: [34, 36, 35]
+  k: '?'
   l: [LAYER0]
