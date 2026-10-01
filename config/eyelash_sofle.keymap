@@ -114,15 +114,15 @@
             layers = <0>;
         };
 
-        grave {
+        colon {
             bindings = <&kp COLON>;
-            key-positions = <21 22 23>;
+            key-positions = <34 35 36>;
             layers = <0>;
         };
 
-        tilde {
+        question {
             bindings = <&kp QUESTION>;
-            key-positions = <34 36 35>;
+            key-positions = <21 22 23>;
             layers = <0>;
         };
 
